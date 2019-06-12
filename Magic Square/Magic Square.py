@@ -3,9 +3,14 @@ import numpy as np
 # Dit is de 'Magic Square' die wij gaan oplossen, 'None' staat voor een waarde die wij moeten berekenen.
 magicSquare = np.array([
     8,     None,    None,
+    None,  None,    7,
     None,  None,    2,
-    None,  None,    9,
 ])
+
+# Oplossing:
+# 8	1 6
+# 3	5 7
+# 4	9 2
 
 # Dit zijn de vergelijkingen omgeschreven naar een Matrix
 defaultComparisonArray = np.array([
